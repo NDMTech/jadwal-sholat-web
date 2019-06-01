@@ -31,7 +31,7 @@ Dengan bahasa paling dominan yaitu JavaScript sebagai backend memungkinkan aplik
 3. Tombol **iqomah** yang biasanya ada dalam jam digital.
 4. Hadist yang telah diatur sedemikian rupa sehingga dapat berubah-ubah sesuai keinginan anda.
 
-## Cara Install
+## Cara Install Windows
 
 1. [Download NodeJS disini!](https://nodejs.org/en/)
 
@@ -48,16 +48,36 @@ Sedikit penjelasan, **run_istaller.bat** berguna untuk menginstal dependensi/pak
 5. Dan, biarkan konsol bekerja sendiri hingga aplikasi peramban (Chrome) terbuka sendiri
 6. Untuk keluar dari aplikasi, aktifkan konsol (Alt + Tab hingga mencapai cmd.exe) kemudian tekan Ctrl + C, kemudian tulis Y dan tekan Enter.
 
+## Cara Install Linux
+1. apt update
+2. apt install git curl software-properties-common
+3. curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+4. apt install build-essential nodejs
+5. git clone https://github.com/skymunn/jadwal-sholat-web
+6. cd jadwal-sholat-web
+7. npm i -s
+8. nodejs server.js
+
 *Catatan: Apabila anda tidak mempunyai Google Chrome, coba peramban yang lain dan buka http://localhost:3030/ dalam peramban anda.*
 
-## Cara Mengatur Aplikasi
+## Cara Mengatur Aplikasi Windows
 
 1. Navigasikan ke folder /public/settings/.
 2. Di dalam folder itu ada dua file yakni.
    - hadist_list.js (Daftar hadist yang selalu berputar tiap saat)
    - setting.js (Beberapa pengaturan penting yang harus diatur demi kelangsungan aplikasi)
 
-Kalian dapat mengubah kodenya tersebut menggunakan aplikasi Notepad. Tapi, mohon agar **tidak menghapus koma, kurung kurawal, maupun titik dua di dalam pengaturan tersebut, karena akan berakibat fatal bagi aplikasi**.
+## Cara Mengatur Aplikasi Linux
+
+1. cd /public/settings/. 
+2. Di dalam folder itu ada dua file yakni.
+   - hadist_list.js (Daftar hadist yang selalu berputar tiap saat)
+   - setting.js (Beberapa pengaturan penting yang harus diatur demi kelangsungan aplikasi)
+3. apt install nano
+4. nano hadist-list.js
+5. nano setting.js
+
+Kalian dapat mengubah kodenya tersebut menggunakan aplikasi Notepad++/Notepad untuk windows dan Nano untuk linux. Tapi, mohon agar **tidak menghapus koma, kurung kurawal, maupun titik dua di dalam pengaturan tersebut, karena akan berakibat fatal bagi aplikasi**.
 
 ### Yang harus diperhatikan
 
