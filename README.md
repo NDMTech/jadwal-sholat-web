@@ -75,10 +75,11 @@ String[] | Array<String>/Himpunan Karakter | Dalam menulis pengaturannya, sama s
 
 Nama Method | Output | Keterangan | Contoh
 ------------|--------|------------|-------
-city_name | String | Kota tempat anda mengatur aplikasi ini | "city_name": "Makassar"
-longitude | Number | Lintang tempat anda berada | "longitude": -5.1548145
-latitude | Number | Bujur tempat anda berada | "latitude": 119.46666666667
+city_name | String | Kota tempat anda mengatur aplikasi ini | "city_name": "Bandar Lampung"
+longitude | Number | Lintang tempat anda berada | "longitude": -5.25
+latitude | Number | Bujur tempat anda berada | "latitude": 105.14
 hadist_duration | Number | Durasi untuk hadist berganti dengan hadist yang lain | "hadist_duration": 1.5
+zona_waktu | Number | Zona waktu tempt anda berada | "zona_waktu": +7
 
 ### setting.js (iqomah_duration)
 
